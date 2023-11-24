@@ -1,0 +1,100 @@
+/* You can customize these styles as needed */
+
+#wrap {
+  width: 1100px;
+  margin: 0 auto;
+  overflow-x: auto;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+article {
+  display: inline-block; /* Display the articles in a horizontal line */
+  margin-right: 40px; /* Add some spacing between articles */
+}
+
+img {
+  display: block;
+  border: 3px solid #e6e6fa;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* Style for the buttons */
+
+.button_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 15px;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  color: #2e86b9;
+  padding-bottom: 10px;
+  text-align: left;
+  padding: 3px 5px;
+  margin: 5px 0;
+  margin-top: 150px;
+  border-bottom: 1px solid #e6e6fa;
+  text-align: center;
+}
+
+/* Styling specific buttons by their IDs */
+#Button0,
+#Button1 {
+  background-color: #ff5733; /* Example color for Button0 */
+}
+
+#Button2,
+#Button3,
+#Button4 {
+  background-color: #6bb8c4; /* Example color for Button1 */
+}
+
+#Button5,
+#Button6 {
+  background-color: #93be04; /* Example color for Button2 */
+}
+
+#Button4 {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#Button5 {
+  margin-left: 20px;
+}
+
+#Button7 {
+  background-color: teal;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Styling the file upload input */
+#image-upload-input {
+  margin: 10px;
+}
+
+/* Optional: Adjustments for spacing and alignment */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-repeat: no-repeat;
+}
